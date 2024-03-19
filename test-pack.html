@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subscription Plans</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<style type="text/css">
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.offers-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 4px;
+    width: 30%;
+    margin: 10px;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+.plan-header {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.plan-duration {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.plan-pricing {
+    margin-bottom: 20px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.discounted-price {
+    color: #e53935;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.apply-coupon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 5px 15px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buy-now {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.selected {
+    border-color: #4CAF50;
+}
+
+.selected .buy-now {
+    background-color: #ffa000;
+} 
+</style>
+<body>
+
+<div class="container">
+    <div class="offers-section">
+        <button class="apply-coupon">Apply Coupon</button>
+        <div class="plan monthly-plan">
+            <div class="plan-header">Monthly Pass Pro</div>
+            <div class="plan-duration">Valid for 31 Days</div>
+            <div class="plan-pricing">
+                <span class="original-price">₹999</span>
+                <span class="discounted-price">₹449</span>
+            </div>
+            <button class="buy-now">Buy Monthly Pass Pro Now</button>
+        </div>
+        <div class="plan yearly-plan selected">
+            <div class="plan-header">Yearly Pass Pro</div>
+            <div class="plan-duration">Valid for 365 Days</div>
+            <div class="plan-pricing">
+                <span class="original-price">₹1999</span>
+                <span class="discounted-price">₹499</span>
+            </div>
+            <button class="buy-now">Buy Yearly Pass Pro Now</button>
+        </div>
+        <div class="plan two-year-plan">
+            <div class="plan-header">2 Years Pass Pro</div>
+            <div class="plan-duration">Valid for 730 Days</div>
+            <div class="plan-pricing">
+                <span class="original-price">₹2999</span>
+                <span class="discounted-price">₹699</span>
+            </div>
+            <button class="buy-now">Buy 2 Years Pass Pro Now</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

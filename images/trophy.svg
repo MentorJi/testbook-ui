@@ -1,0 +1,54 @@
+<svg width="253" height="213" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="145.547%" x2="50%" y2="41.828%" id="d">
+            <stop stop-color="#FFA819" offset="0%"/>
+            <stop stop-color="#FFEBBF" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="e">
+            <stop stop-color="#FC8C20" offset="0%"/>
+            <stop stop-color="#F58233" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="j">
+            <stop stop-color="#B86A2E" offset="0%"/>
+            <stop stop-color="#954122" offset="100%"/>
+        </linearGradient>
+        <radialGradient cx="50%" cy="41.828%" fx="50%" fy="41.828%" r="95.945%" id="g">
+            <stop stop-color="#FFA91C" offset="0%"/>
+            <stop stop-color="#FFC46C" offset="100%"/>
+        </radialGradient>
+        <radialGradient cx="22.304%" cy="9.215%" fx="22.304%" fy="9.215%" r="86.079%" gradientTransform="matrix(-.0316 .87024 -.9995 -.02752 .322 -.1)" id="h">
+            <stop stop-color="#FADD69" offset="0%"/>
+            <stop stop-color="#FFB53F" offset="100%"/>
+        </radialGradient>
+        <path id="a" d="M0 0h253v213H0z"/>
+        <path d="M52.757 105.512C23.62 105.512 0 81.892 0 52.755V0h105.512v52.755c0 29.137-23.618 52.757-52.755 52.757z" id="f"/>
+        <filter x="-96.9%" y="-96.9%" width="293.8%" height="293.8%" filterUnits="objectBoundingBox" id="c">
+            <feGaussianBlur stdDeviation="21" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <g mask="url(#b)">
+            <g transform="rotate(-30 147.49 69.493)">
+                <circle fill="#000" opacity=".299" filter="url(#c)" cx="87.753" cy="134.773" r="32.5"/>
+                <path d="M132.034 13.413H24.723a6.706 6.706 0 0 1-6.707-6.706A6.706 6.706 0 0 1 24.723 0h107.311a6.706 6.706 0 0 1 6.707 6.707 6.706 6.706 0 0 1-6.707 6.706z" fill="url(#d)" transform="rotate(-10 452.52 -33.738)"/>
+                <path d="m154.704 123.542-5.278-29.938 2.35-.414 10.881-1.919s3.971 19.334-7.953 32.27m19.07-45.59-26.347 4.646-5.693 1.004 10.826 61.394c29.56-27.43 21.213-67.043 21.213-67.043M51.088 141.812l-5.278-29.937-2.35.414-10.882 1.919s2.881 19.526 18.51 27.604m-33.511-36.319 26.346-4.645 5.693-1.004 10.825 61.394c-37.16-15.665-42.864-55.745-42.864-55.745" fill="#FCAE42"/>
+                <path fill="url(#e)" d="M69.768 136.145h17.218v-18.818H69.768z" transform="rotate(-10 452.52 -33.738)"/>
+                <g transform="rotate(-10 515.99 -191.178)">
+                    <mask id="i" fill="#fff">
+                        <use xlink:href="#f"/>
+                    </mask>
+                    <use fill="url(#g)" xlink:href="#f"/>
+                    <path fill="url(#h)" mask="url(#i)" d="M.434 0H81.54L.434 93.153z"/>
+                </g>
+                <path d="m89.72 214.594 51.742-9.124-1.374-7.793a3.764 3.764 0 0 0-4.36-3.053l-44.33 7.817a3.764 3.764 0 0 0-3.053 4.36l1.375 7.793z" fill="#FFA528"/>
+                <path d="M39.015 172.285h78.726a3.764 3.764 0 0 0 3.763-3.764v-16.936a3.764 3.764 0 0 0-3.763-3.764H39.015a3.764 3.764 0 0 0-3.763 3.764v16.936a3.764 3.764 0 0 0 3.763 3.764z" fill="url(#j)" transform="rotate(-10 452.52 -33.738)"/>
+                <path d="m100.391 231.526 37.064-6.535a3.764 3.764 0 0 0 3.053-4.36l-.98-5.56a3.764 3.764 0 0 0-4.36-3.053l-37.064 6.536a3.764 3.764 0 0 0-3.053 4.36l.98 5.56a3.764 3.764 0 0 0 4.36 3.052z" fill="#C38457"/>
+                <path fill="#FFEEB4" d="m96.083 95.152 11.998 16.35 20.27-.612-11.844 16.46 6.847 19.091-19.316-6.176-16.039 12.41-.095-20.28-16.76-11.418 19.257-6.358z"/>
+                <path d="M3.447 32.135c4.072 1.592 7.49 4.86 11.964 14.501 3.805-2.588 6.396-5.873 8.508-11.214-4.316-6.708-7.435-10.35-14.008-14.443-.923 4.63-2.629 7.032-6.464 11.156M163.75 2.404c-1.455 2.69-3.416 4.674-7.372 5.906 5.53 8.395 10.116 13.019 17.273 19.41 5.36-2.493 7.702-5.087 9.19-7.111-9.025-4.95-13.34-9.956-19.09-18.205" fill="#F5CB1C"/>
+            </g>
+        </g>
+    </g>
+</svg>
